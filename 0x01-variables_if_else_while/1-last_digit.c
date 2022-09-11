@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 /**
  * Description: main print result to stdout.
  * Retun: 0 successful.
