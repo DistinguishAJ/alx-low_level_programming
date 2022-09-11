@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * Description: main -To print to stdout.
- * Return: 0 if run successful.
+ * Description: main - Print out a string to stdout.
+ * Return: 0 if successful.
  */
 int main(void)
 {
