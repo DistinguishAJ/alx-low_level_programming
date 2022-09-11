@@ -3,7 +3,7 @@
 #include <time.h>
 /**
  * Description: main print to stdout.
- * Retun: 0 successful.
+ * Return: 0 if run successful.
  */
 int main(void)
 {
