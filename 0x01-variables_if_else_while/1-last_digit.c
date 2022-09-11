@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * Description: main print to stdout.
+ * Description: main -To print to stdout.
  * Return: 0 if run successful.
  */
 int main(void)
