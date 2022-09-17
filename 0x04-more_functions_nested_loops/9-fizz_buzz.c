@@ -1,10 +1,6 @@
 #include <stdio.h>
-
 /**
-*main - program that prints either number
-*or fizz or buzz or fizzBuzz
-*
-*
+*main - function that checks for the uppercase character.
 *Return: returns 0
 */
 
