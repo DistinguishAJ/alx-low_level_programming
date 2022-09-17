@@ -1,9 +1,8 @@
 #include <stdio.h>
 /**
-*main - function that checks for the uppercase character.
-*Return: returns 0
+* main - function that checks for uppercase character.
+* Return: 0
 */
-
 int main(void)
 {
 	int num = 1;
