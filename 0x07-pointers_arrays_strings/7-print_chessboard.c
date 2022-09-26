@@ -1,4 +1,3 @@
-nes (19 sloc) 448 Bytes
 #include "main.h"
 #include <stdio.h>
 
