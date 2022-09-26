@@ -1,22 +1,21 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * print_diagsums - add diagonal lines of a square matrix
- * @a: square matrix
- * @size: size of matrix
+ * print_chessboard - prints the sum of the two diagonals.
+ * @a: source matrix
+ *
+ *
+ * Return: chessboard.
  */
-
-void print_diagsums(int *a, int size)
+void print_chessboard(char (*a)[8])
 {
-	int lfrg = 0, rglf = size - 1;
-	int valuelfrg = 0, valuerglf = 0;
-	int *p = a;
+	int i, j;
 
-	for (; lfrg <= size * size; lfrg += (size + 1), rglf += (size - 1))
+	for (i = 0; i <= 7; i++)
 	{
-		valuelfrg += *(p + lfrg);
-		valuerglf += *(p + rglf);
+		for (j = 0; j <= 7; j++)
+		{
+			_putchar(a[i][j]);
+		}
+		_putchar('\n');
 	}
-	printf("%d, %d\n", valuelfrg, valuerglf);
 }
